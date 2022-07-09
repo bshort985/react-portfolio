@@ -1,10 +1,9 @@
 import React from 'react';
 import { useState } from "react";
-import About from "./components/About";
 import Nav from "./components/Nav";
-//import Portfolio from "./components/Portfolio";
 import Page from "./components/Page";
-
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   const [pages] = useState([
@@ -18,12 +17,15 @@ function App() {
     
   return (
     <div>
+      <Header>
       <Nav pages={pages}
       setCurrentPage={setCurrentPage}
       currentPage={currentPage}></Nav>
+      </Header>
       <main>
         <Page currentPage={currentPage}></Page>
       </main>
+      <Footer></Footer>
     </div>
   );
 }
