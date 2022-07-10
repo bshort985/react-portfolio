@@ -12,8 +12,8 @@ function Footer() {
             link: "https://www.linkedin.com/in/brian-short-7603a6142/" 
         },
         {
-            name: "Facebook",
-            link: ""
+            name: "Email",
+            link: "mailto:bshort985@gmail.com"
         }
     ]
     return (

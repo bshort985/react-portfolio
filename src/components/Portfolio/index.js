@@ -15,32 +15,32 @@ function Portfolio() {
     {
       name: 'coding-quiz',
       description: 'HTML/CSS/JAVASCRIPT',
-      link: "https://github.com",
-      repo: "https://github.com"
+      link: "https://bshort985.github.io/Coding-Quiz/",
+      repo: "https://github.com/bshort985/Coding-Quiz"
     },
     {
-      name: 'run-buddy',
-      description: 'HTML/CSS',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'work-day-scheduler',
+      description: 'HTML/CSS/JAVASCRIPT',
+      link: "https://bshort985.github.io/Work-Day-Scheduler/",
+      repo: "https://github.com/bshort985/Work-Day-Scheduler"
     },
     {
-      name: 'run-buddy',
-      description: 'HTML/CSS',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'e-commerce-backend',
+      description: 'SQL',
+      link: "https://drive.google.com/drive/folders/1CXOO4czZSf6rkNBZtEouJWCSWCizDAgJ?usp=sharing",
+      repo: "https://github.com/bshort985/eCommerceBackend"
     },
     {
-      name: 'run-buddy',
-      description: 'HTML/CSS',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'social-network-api',
+      description: 'MONGOOSE',
+      link: "https://drive.google.com/drive/folders/1onuIYGQqVpte9FlrSeFBj6dQNWqOwixr?usp=sharing",
+      repo: "https://github.com/bshort985/SocialNetworkAPI"
     },
     {
-      name: 'run-buddy',
-      description: 'HTML/CSS',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'team-profile-generator',
+      description: 'JAVASCRIPT',
+      link: "https://drive.google.com/file/d/17Rqjmo4PZRxjN3RnC-4LeK2hgAE7qnk3/view?usp=sharing",
+      repo: "https://github.com/bshort985/team-profile-generator"
     },
  
   ]);

@@ -110,6 +110,7 @@ button:hover {
 
 img {
   max-width: 100%;
+  image-resolution: 80%;
 }
 
 span[role='img'] {
@@ -193,9 +194,11 @@ ul.skills li {
 }
 
 footer {
-  display: inline-flex;
-  font-size: 48px;
+  display: flex;
+  font-size: 30px;
   justify-content: center;
+  align-items: flex-end;
+  
 }
 
 footer a {
@@ -322,7 +325,7 @@ textarea {
 }
 
 .project-text:hover {
-  background-color: var(--alpha);
+  background-color: var(--light);
   opacity: 1;
   border: 10px solid var(--secondary);
 }
@@ -400,4 +403,8 @@ button:hover {
 button[disabled] {
   cursor: default;
   opacity: 0.8;
+}
+
+.contact {
+  display: inline-flex;
 }
