@@ -1,5 +1,5 @@
 import React from "react";
-import coverPic from "../../assests/img/cover.jpg"
+import coverPic from "../../assets/img/cover.jpg"
 
 function Header(props) {
     return (
