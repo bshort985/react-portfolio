@@ -20,8 +20,8 @@ function Footer() {
         <footer>
             {links.map(links =>
                 (
-                    <a href={links.link} key={links.name} target="_blank" rel="noopener noreferrer"><i>{links.name}</i></a>
-                ))};
+                    <a className="flex-row px-1" href={links.link} key={links.name} target="_blank" rel="noopener noreferrer"><i>{links.name}</i></a>
+                ))}
         </footer>
     );
 

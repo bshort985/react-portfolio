@@ -8,7 +8,7 @@ function Resume() {
         Download my <a href="https://docs.google.com/document/d/1Wz9epjle10KwNzcm0EUP1E_JDlRxTyyX6XLO5XEXJgA/edit?usp=sharing">resume</a>
         </p>
         <h3>Front-end Proficiencies</h3>
-        <ul className="skills">
+        <ul>
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
@@ -18,7 +18,7 @@ function Resume() {
           <li>Bootstrap</li>
         </ul>
         <h3>Back-end Proficiencies</h3>
-        <ul className="skills">
+        <ul>
           <li>APIs</li>
           <li>Node</li>
           <li>Express</li>
