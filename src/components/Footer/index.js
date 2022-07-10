@@ -9,18 +9,18 @@ function Footer() {
         },
         {
             name: "LinkedIn",
-            link: "linkedin.com/in/brian-short-7603a6142" 
+            link: "https://www.linkedin.com/in/brian-short-7603a6142/" 
         },
-        // {
-        //     name: "Facebook",
-        //     link: ""
-        // }
+        {
+            name: "Facebook",
+            link: ""
+        }
     ]
     return (
         <footer>
             {links.map(links =>
                 (
-                    <a href={links.link} key={links.name} target="_blank" rel="noopener noreferrer"><i className={links.name}></i></a>
+                    <a href={links.link} key={links.name} target="_blank" rel="noopener noreferrer"><i>{links.name}</i></a>
                 ))};
         </footer>
     );
